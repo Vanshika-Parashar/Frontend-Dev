@@ -1,0 +1,74 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.container{
+    text-align: center;
+    margin-top:100px;    
+
+}
+.head1{
+    color: aquamarine;
+    margin-bottom:20px;
+}
+.count{
+    font-size: 50px;
+    color: azure;
+    margin-bottom: 20px;
+}
+.bttons{
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;   
+    gap:20px;   
+}
+.redbtn{
+    color: bisque;
+    border: 3px ;
+    border-radius: 3px;
+    background-color: brown;
+    padding:10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.bluebtn{
+    color: bisque;
+    border: 3px ;
+    border-radius: 3px;
+    background-color: blue;
+    padding:15px 15px 15px 15px;
+    margin-bottom: 15px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.greenbtn{
+    color: bisque;
+    border: 3px ;
+    border-radius: 3px;
+    background-color: green;
+    padding:10px 10px 10px 10px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.redbtn:hover{
+    transform: translateY(4px) scale(1); /* Pops up slightly */
+    border-color: 2px solid yellow; /* Highlight border */
+    box-shadow: 0 8px 15px #1000004d;
+}
+.bluebtn:hover{
+    transform: translateY(4px) scale(1); /* Pops up slightly */
+    border-color: 2px solid yellow; /* Highlight border */
+    box-shadow: 0 8px 15px #1000004d;
+}
+.greenbtn:hover{
+    transform: translateY(4px) scale(1); /* Pops up slightly */
+    border-color: 2px solid yellow; /* Highlight border */
+    box-shadow: 0 8px 15px #1000004d;
+    
+}
