@@ -1,0 +1,89 @@
+body{
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+}
+.form{
+    background-color: aquamarine;
+    width:400px;
+    height:auto;
+    border:2px solid black;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head{
+    color:blueviolet
+}
+.user{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-bottom:15px;
+}
+.use{
+    width: 250px;
+    padding: 5px;
+    margin-left:10px;
+    border-radius: 3px;
+    
+}
+.email{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-bottom:15px;
+}
+.mail{
+    width: 250px;
+    padding: 5px;
+    margin-left:10px;
+    border-radius: 3px;
+    
+}
+.phone{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-bottom:15px;
+}
+.ph{
+    width: 250px;
+    padding: 5px;
+    margin-left:10px;
+    border-radius: 3px;
+    
+}
+.pass{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-bottom:15px;
+}
+.lock{
+    width: 250px;
+    padding: 5px;
+    margin-left:10px;
+    border-radius: 3px;
+    
+}
+.button{
+    margin-left: 170px;
+    background-color: cadetblue;
+    padding:5px 9px 5px 9px;
+    border-radius: 5px;
+
+}
+.valid{
+    border:2px solid green;
+}
+.invalid{
+    border:2px solid red;
+}
